@@ -33,6 +33,31 @@ requirements:
     - opentelemetry-api >=1.30.0,<2.0.0
     - opentelemetry-sdk >=1.30.0,<2.0.0
     - opentelemetry-instrumentation-threading >=0.51b0,<1.00b0
+    - anthropic >=0.21.0,<1.0.0
+    - commitizen >=4.4.0,<5.0.0
+    - hatch >=1.0.0,<2.0.0
+    - moto >=5.1.0,<6.0.0
+    - mypy >=1.15.0,<2.0.0
+    - pre-commit >=3.2.0,<4.2.0
+    - pytest >=8.0.0,<9.0.0
+    - pytest-asyncio >=0.26.0,<0.27.0
+    - pytest-cov >=4.1.0,<5.0.0
+    - pytest-xdist >=3.0.0,<4.0.0
+    - ruff >=0.4.4,<0.5.0
+    - sphinx >=5.0.0,<6.0.0
+    - sphinx-rtd-theme >=1.0.0,<2.0.0
+    - sphinx-autodoc-typehints >=1.12.0,<2.0.0
+    - litellm >=1.72.6,<1.73.0
+    - llama-api-client >=0.1.0,<1.0.0
+    - mistralai >=1.8.2
+    - ollama >=0.4.8,<1.0.0
+    - openai >=1.68.0,<2.0.0
+    - opentelemetry-exporter-otlp-proto-http >=1.30.0,<2.0.0
+    - a2a-sdk[sql] >=0.2.11,<1.0.0
+    - uvicorn >=0.34.2,<1.0.0
+    - httpx >=0.28.1,<1.0.0
+    - fastapi >=0.115.12,<1.0.0
+    - starlette >=0.46.2,<1.0.0
 
 test:
   imports:
