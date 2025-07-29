@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "strands-agents" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents-{{ version }}.tar.gz
-  sha256: a918cfe342868b4071fb4c19c5af7b1b2e224d368fb7ae6e4de5dbb014d706e5
+  sha256: a816fcbe630446e372b7d66545b37322e4f7417e988f1fe062ebeb8a66b36d5a
 
 build:
   noarch: python
@@ -32,7 +32,6 @@ requirements:
     - watchdog >=6.0.0,<7.0.0
     - opentelemetry-api >=1.30.0,<2.0.0
     - opentelemetry-sdk >=1.30.0,<2.0.0
-    - opentelemetry-exporter-otlp-proto-http >=1.30.0,<2.0.0
 
 test:
   imports:
