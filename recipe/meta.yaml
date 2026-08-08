@@ -1,5 +1,5 @@
 {% set name = "strands-agents" %}
-{% set version = "1.50.2" %}
+{% set version = "1.51.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents-{{ version }}.tar.gz
-  sha256: 7b45c41593e41f22383962a233b6616360b8c3686ae8b902059b6a6fab3deacf
+  sha256: 4cbd0b183aad0bb60ac7c6043d29841c8933937c97228e91669d2d97fc40776d
 
 build:
   noarch: python
