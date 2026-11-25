@@ -3,15 +3,15 @@ About strands-agents-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/strands-agents-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/strands-agents
+Home: https://github.com/strands-agents/harness-sdk
 
 Package license: Apache-2.0
 
 Summary: A model-driven approach to building AI agents in just a few lines of code
 
-Development: https://github.com/strands-agents
+Development: https://github.com/strands-agents/harness-sdk
 
-Documentation: https://github.com/strands-agents
+Documentation: https://strandsagents.com
 
 Current build status
 ====================
